@@ -8,21 +8,20 @@
 	list-style: none;
 	font-family: 'Montserrat', sans-serif;
 }
-
+/* fijate los align-items que vas agregando, porque ya haberlo agregado en el body repercute en todo el cv*/
 body {
 	background-color: #FFC0B5;
 	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; 
 }
 
 img {
 	width: auto;
-	padding: 20px 20px 20px 0;
-	margin: 15px 10px 0 0;
-	border-radius: 100%;
+	padding: 20px 20px 20px 0; /*mas que padding, haria un margin-top para solo bajar la img*/
+	border-radius: 100%; /*fijate de ponerlo en px, porque sino se deforma🧐*/
 	display: flex;
 	justify-content: center;
 	line-height: 10px;
