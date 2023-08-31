@@ -8,20 +8,19 @@
 	list-style: none;
 	font-family: 'Montserrat', sans-serif;
 }
-/* fijate los align-items que vas agregando, porque ya haberlo agregado en el body repercute en todo el cv*/
 body {
 	background-color: #FFC0B5;
 	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center; 
 }
 
 img {
 	width: auto;
-	padding: 20px 20px 20px 0; /*mas que padding, haria un margin-top para solo bajar la img*/
-	border-radius: 100%; /*fijate de ponerlo en px, porque sino se deforma🧐*/
+	margin-top: 40px;
+	border: 15px solid #FFC0B5;
+	border-radius: 950px;
 	display: flex;
 	justify-content: center;
 	line-height: 10px;
@@ -64,8 +63,10 @@ h4 {
 header p {
 	color: white;
 	font-size: 15px;
-	width: 30%;
+	width: 400px;
 	padding: 30px;
+	display: flex;
+	justify-content: center;
 }
 
 #cabecera {
@@ -115,7 +116,6 @@ ul{
 	align-items: center;
 	text-align:start;
 }
-
 .botones a{
 	text-decoration: none;
 	font-size: 50px;
