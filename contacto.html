@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="dai1/favicon.ico" type="image/x-icon" />
+	<title>contacto</title>
+	<link href="estilos.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header id="cabecera">
+			<img src="img/fotomia.JPG" width="300px" height="260px" alt="fotoprincipal" id="fotoperfil">
+			<h1>Daiana Parisi</h1>
+			<h2>Diseñadora gráfica</h2>
+			<p>Soy estudiante de la carrera en Diseño gráfico y Comunicación Visual en la Universidad Nacional de Lanús. Me especializo en el diseño de identidad visual, manejo de redes y packaging.</p>
+	</header>
+	
+	<nav> 
+		<ul>
+			<li> <a href="index.html"> INICIO </a> </li>
+			<li> <a href=""> TRABAJOS </a> </li>
+			<li> <a href=""> SOBRE MI </a> </li>
+			<li> <a href="contacto.html"> CONTACTO </a> </li>
+		</ul>
+	</nav>
+	
+<main>
+	<div id="contenedor2">
+		<div id="contenido">
+			<h4>CONTÁCTAME</h4>
+			<p> Completar campos obligatorios (*)</p>
+			<form action="mailto:evelin.olcese@hotmail.com?subjet=formulario porfolio" method="post" target="_blank" id="formulario">
+				<table width="914" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="200" class="columna_izquierda"><label for="nombre">Nombre</label></td>
+					<td width="358"><input name="nombre" type="text" required id="nombre">
+					<span> (*)</span></td>
+					<td width="464" class="columna_izquierda_comentarios"><label for="textarea">Mensaje</label></td>
+				</tr>
+
+				<tr>
+					<td class="columna_izquierda"><label for="apellido">Apellido:</label></td>
+					<td><input name="apellido" type="text" required id="apellido">
+					<span> (*)</span></td>
+					<td><textarea name="textarea" maxlength="500" id="textarea" placeholder="Deje su mensaje aquí..."></textarea></td>
+					<td width="6"></td>
+				</tr>
+				
+				<tr>
+					<td class="columna_izquierda"><label for="email">Email</label></td>
+					<td><input name="email" type="email" required id="email" maxlength="30">
+					<span> (*)</span></td>
+					<td></td>
+				</tr>
+					
+				<tr>
+					<td class="columna_izquierda"><label for="edad">Edad</label></td>
+					<td><input name="edad" type="number" id="edad" max="150" min="0"></td>
+					<td><input name="enviar" type="submit" id="submit" formenctype="text/plain" value="Enviar">
+					<input type="reset" name="reset" id="borrar" value="Borrar"></td>
+				</tr>
+				
+				<tr>
+					<td class="genero">Género</td>
+					<td class="opcionesdegenero">
+					<label>
+						<input type="radio" name="Sexo" value="Hombre" id="Sexo0">
+						Hombre
+					</label>
+					<label>
+						<input type="radio" name="Sexo" value="Mujer" id="Sexo1">
+						Mujer
+					</label>
+					<label>
+						<input type="radio" name="Sexo" value="Otro" id="Sexo2">
+						Otro</label>
+					</td>
+				</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</main>
+	
+	<footer>
+		<div>
+			<p>Por cualquier consulta no dudes en contactarte.</p>
+		</div>
+		<div>
+			<p>Cátedra Wischñevsky - 2023</p>
+		</div>
+		<nav>
+			<ul class="botones">
+				<a href="https://www.instagram.com/dp.grafico/" class="fa fa-instagram"></a>
+				<a href="https://wa.me/5491138221987/" class="fa fa-whatsapp"></a>
+				<a href="https://www.linkedin.com/in/daiana-parisi-471b52120/?originalSubdomain=ar" class="fa fa-linkedin-square"></a>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

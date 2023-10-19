@@ -9,7 +9,6 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-/* Estoy realizando una prueba 12/10*/
 body {
 	background-color: #FFC0B5;
 	width: 100%;
@@ -82,7 +81,7 @@ header p {
 	align-items: center;
 }
 
-/**************** BOTONERA******** */ 
+/**************** BOTONERA INDEX******** */ 
 /* quiero que me quede centrado el nav y no estaría pudiendo modificarlo :( */
 nav{
 	width:100%;
@@ -182,4 +181,83 @@ footer p {
 	color: #FFFFFF;
 	align-items: flex-end;
 	padding: 0px 10px;
+}
+
+
+/***** CONTACTO  HTML*****/
+
+#contenido 
+{
+	background-color: transparent;
+	width: 840px;
+	height: 480px;
+	border: none;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	margin-top:0px;
+	padding-top:10px;
+	margin:0px auto;
+	
+}
+
+#contenido p 
+{
+	font-size: 15px;
+	line-height: 16px; 
+	padding-bottom: 0px;
+	margin-left: 50px;
+}	
+
+label {
+	font-size: 18px;
+	margin-left: 59px;
+}
+input {
+	width: 315px;
+	height: 30px;
+	background-color: #FFC0B5;
+	margin-top: 8px;
+}
+#submit {
+	width: 162px;
+	background-color: #FFC0B5;
+	color: #A45D50;
+	font-size: 17px;
+	margin-left: 0px;
+}
+#borrar {
+	width: 162px;
+	background-color:#FFC0B5;
+	color: #A45D50;
+	font-size: 17px;
+	margin-left: 15px;
+}
+#textarea {
+	height: 55px;
+	width: 315px;
+	background-color: #FFC0B5;
+	border: 1px solid;
+	resize: none;
+}
+#Sexo0, #Sexo1, #Sexo2 {
+	width: 20px;
+	vertical-align: middle;
+}
+.columna_izquierda {
+	height: 30px;
+	width: 200px;
+	padding-left: 0px;
+}
+.columna_izquierda_comentarios {
+	height: 30px;
+	padding-top: 0px;
+}
+.genero {
+	font-size: 19px;
+	vertical-align: middle;
+	padding-left: 59px;
+}
+.opcionesdegenero {
+	padding-top: 15px;
+	padding-left: 30px;
 }
