@@ -157,7 +157,7 @@ ul{
   text-align: center;	
 }
 
-/* aún me queda acomodarlos mejor los elementos dentro */
+/*****FOOTER ***** */
 footer {
 	width: auto;
 	height: 100px;
@@ -172,15 +172,19 @@ footer {
 footer p {
 	font-size: 12px;
 	color: #FFFFFF;;
-	padding: 0 15px 0 15px;
+	padding: 10px 40px 15px 15px;
 }
 
 .botones a{
 	text-decoration: none;
 	font-size: 30px;
+	padding: 10px;
 	color: #FFFFFF;
-	align-items: flex-end;
-	padding: 0px 10px;
+}
+
+footer ul {
+	list-style: none;
+	padding: 30px 0 0px 680px;
 }
 
 
