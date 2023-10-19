@@ -28,7 +28,7 @@ img {
 	line-height: 10px;
 }
 
-h1 h2 h3 h4 {
+h1 h2 h3 h4 p {
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -82,6 +82,41 @@ header p {
 	align-items: center;
 }
 
+/**************** BOTONERA******** */ 
+/* quiero que me quede centrado el nav y no estaría pudiendo modificarlo :( */
+nav{
+	width:100%;
+	height:20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top:25px;
+	padding-bottom: 25px;
+	margin-bottom:15px;
+	border-bottom: 3px solid #A45D50;
+	background-color: transparent;
+}
+
+nav ul li a
+{
+	
+	float:left;
+	margin-left:65px;
+	margin-bottom:0px;
+	display:block;
+	text-decoration:none;
+	font-size:12pt;
+	font-weight: 500;
+	color:#C56959;
+	
+}
+
+nav ul li a:hover
+{
+	color:#723D33;
+	font-weight: 600;
+}
+
 main {
 	width: 90%;
 	height: 100%;
@@ -118,28 +153,33 @@ ul{
 	align-items: center;
 	text-align:start;
 }
-.botones a{
-	text-decoration: none;
-	font-size: 50px;
-	margin: 5px;
-	color: #A45D50;
-	display: inline;
-	line-height: 50px;
-	padding: 0 30px 0 0;
-}
 
 .flex-container-a .flex-container-b .flex-container-c{
   text-align: center;	
 }
-	
+
+/* aún me queda acomodarlos mejor los elementos dentro */
 footer {
-	width: 100%;
+	width: auto;
 	height: 100px;
 	background-color: #A45D50;
 	display: flex;
 	justify-content:space-around;
-	align-items: center;
-	text-align: center;
+	align-items:center;
+	padding: 0 0 0 50px;
 	font-style: italic;
-	color: white;
+}
+
+footer p {
+	font-size: 12px;
+	color: #FFFFFF;;
+	padding: 0 15px 0 15px;
+}
+
+.botones a{
+	text-decoration: none;
+	font-size: 30px;
+	color: #FFFFFF;
+	align-items: flex-end;
+	padding: 0px 10px;
 }
