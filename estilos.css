@@ -61,7 +61,7 @@ h4 {
 	font-weight: 600;
 }
 
-header p {
+.datosprincipales p {
 	color: white;
 	font-size: 15px;
 	width: 400px;
@@ -70,8 +70,8 @@ header p {
 	justify-content: center;
 }
 
-#cabecera {
-	width: 100%;
+.datosprincipales {
+	width: 1920px;
 	height: auto;
 	background-color: #A45D50;
 	display: flex;
