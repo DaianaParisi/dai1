@@ -212,7 +212,7 @@ footer ul {
 
 label {
 	font-size: 18px;
-	margin-left: 59px;
+	margin-left: 65px;;
 	color: #A45D50;
 	font-weight: 500;
 }
@@ -256,7 +256,7 @@ input {
 }
 
 #Sexo0, #Sexo1, #Sexo2 {
-	width: 20px;
+	width: 15px;
 	vertical-align: middle;
 }
 
