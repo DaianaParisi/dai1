@@ -189,8 +189,7 @@ footer ul {
 
 /***** CONTACTO  HTML*****/
 
-#contenido 
-{
+#contenido {
 	background-color: transparent;
 	width: 840px;
 	height: 480px;
@@ -214,11 +213,13 @@ footer ul {
 label {
 	font-size: 18px;
 	margin-left: 59px;
+	color: #A45D50;
+	font-weight: 500;
 }
 input {
 	width: 315px;
 	height: 30px;
-	background-color: #FFC0B5;
+	background-color: #FFF1EF;
 	border: 2px solid #A45D50;
 	border-radius: 17px;
 	margin: 15px 0px 10px 0px;
@@ -230,22 +231,22 @@ input {
 }
 #submit {
 	width: 162px;
-	background-color: #FFC0B5;
-	color: #A45D50;
+	background-color: #A45D50;
+	color: #FFC0B5;
 	font-size: 17px;
 	margin-left: 0px;
 }
 #borrar {
 	width: 162px;
-	background-color:#FFC0B5;
-	color: #A45D50;
+	background-color: #A45D50;
+	color: #FFC0B5;
 	font-size: 17px;
 	margin-left: 15px;
 }
 #textarea {
 	height: auto;
 	width: 315px;
-	background-color: #FFC0B5;
+	background-color: #FFF1EF;
 	border: 1px solid;
 	resize: none;
 	border: 2px solid #A45D50;
@@ -253,23 +254,29 @@ input {
 	margin: 11px 15px 10px 0px;
 	padding: 5px 10px
 }
+
 #Sexo0, #Sexo1, #Sexo2 {
 	width: 20px;
 	vertical-align: middle;
 }
+
 .columna_izquierda {
 	height: 30px;
 	width: 200px;
 	padding-left: 0px;
 }
+
 .columna_izquierda_comentarios {
 	height: 30px;
 	padding-top: 0px;
 }
+
 .genero {
 	font-size: 19px;
 	vertical-align: middle;
 	padding-left: 59px;
+	color: #A45D50;
+	font-weight: 500;
 }
 .opcionesdegenero {
 	padding-top: 15px;
