@@ -82,7 +82,6 @@ h4 {
 }
 
 /**************** BOTONERA INDEX******** */ 
-/* quiero que me quede centrado el nav y no estaría pudiendo modificarlo :( */
 nav{
 	width:100%;
 	height:50px;
@@ -152,8 +151,12 @@ ul{
 	text-align:start;
 }
 
+.flex-container-a {
+	margin: 50px 20px 0 15px;
+}
+
 .flex-container-a .flex-container-b .flex-container-c{
-  text-align: center;	
+	text-align: center;
 }
 
 /*****FOOTER ***** */
@@ -188,17 +191,22 @@ footer ul {
 
 
 /***** CONTACTO  HTML*****/
+/**** no puedo lograr nivelar "genero" a lo demás del form, y se no estoy pudiendo poner primero "contactame" ***/
+.h4formulario {
+	margin: 15px;
+} 
 
 #contenido {
 	background-color: transparent;
 	width: 840px;
 	height: 480px;
-	border: none;
-	margin-bottom:0px;
-	padding-bottom:0px;
-	margin-top:0px;
-	padding-top:10px;
-	margin:0px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items: center;
+	align-content: center;
+	padding: 0px 30px 0px 0px; 
+	margin: auto;
 	
 }
 
@@ -212,7 +220,7 @@ footer ul {
 
 label {
 	font-size: 18px;
-	margin-left: 59px;
+	margin-left: 30px;
 	color: #A45D50;
 	font-weight: 500;
 }
@@ -221,37 +229,36 @@ input {
 	height: 30px;
 	background-color: #FFF1EF;
 	border: 2px solid #A45D50;
-	border-radius: 17px;
+	border-radius: 15px;
 	margin: 15px 0px 10px 0px;
 }
 
 #edad {
-	width: 315px;
+	width: 100px;
 	height: 30px;
 }
 #submit {
-	width: 162px;
+	width: 100px;
 	background-color: #A45D50;
 	color: #FFC0B5;
 	font-size: 17px;
-	margin-left: 0px;
+	margin: 5px 30px 15px;
 }
 #borrar {
-	width: 162px;
+	width: 100px;
 	background-color: #A45D50;
 	color: #FFC0B5;
 	font-size: 17px;
-	margin-left: 15px;
+	margin: 5px 30px 15px;
 }
 #textarea {
-	height: auto;
+	height: 97px;
 	width: 315px;
 	background-color: #FFF1EF;
-	border: 1px solid;
 	resize: none;
 	border: 2px solid #A45D50;
 	border-radius: 20px;
-	margin: 11px 15px 10px 0px;
+	margin: 5px 30px 15px;
 	padding: 5px 10px
 }
 
@@ -274,11 +281,9 @@ input {
 .genero {
 	font-size: 19px;
 	vertical-align: middle;
-	padding-left: 59px;
 	color: #A45D50;
 	font-weight: 500;
 }
 .opcionesdegenero {
 	padding-top: 15px;
-	padding-left: 30px;
 }
