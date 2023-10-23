@@ -120,9 +120,10 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content:flex-start;
-	padding: 50px 24px 50px 0px; 
+	padding: 50px 24px 50px 0px;
 	margin: auto;
 }
+/** subido **/
 
 section {
 	padding: 35px;
