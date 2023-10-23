@@ -17,7 +17,7 @@ body {
 	flex-direction: column;
 }
 
-img {
+#fotoperfil {
 	width: auto;
 	margin-top: 40px;
 	border: 15px solid #FFC0B5;
@@ -175,6 +175,15 @@ footer p {
 	padding: 10px 40px 15px 15px;
 }
 
+#redes {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin: 35px 0 0px 0;
+	padding: 0 116px 30px 0;
+	margin-bottom:15px;
+}
+
 .botones a{
 	text-decoration: none;
 	font-size: 30px;
@@ -284,4 +293,25 @@ input {
 }
 .opcionesdegenero {
 	padding-top: 15px;
+}
+
+/*** GALERÍA DE IMÁGENES ***/
+#galeria {
+	width: 85%;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#galeria a {
+	width: 14%;
+	margin: 30px;
+}
+
+#galeria a img {
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+	border: 10px solid #A45D50;
 }
