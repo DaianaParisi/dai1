@@ -125,15 +125,14 @@ main {
 }
 
 section {
-	padding: 5px;
-	margin: 30px;
-	width: 30%;
+	padding: 35px;
+	width: 50%;
 	height: auto;
 }
 
-article div{
-	padding: 5%;
-	margin: 5%;
+.idiomas{
+	padding: 25px;
+	margin: 25px;
 	width: auto;
 	height: auto;
 }
@@ -147,10 +146,6 @@ ul{
 	justify-content: center;
 	align-items: center;
 	text-align:start;
-}
-
-.flex-container-a {
-	margin: 50px 20px 0 15px;
 }
 
 .flex-container-a .flex-container-b .flex-container-c{
@@ -198,7 +193,7 @@ footer ul {
 
 
 /***** CONTACTO  HTML*****/
-/**** no puedo lograr nivelar "genero" a lo demás del form, y se no estoy pudiendo poner primero "contactame" ***/
+/**** no puedo lograr nivelar "genero" a lo demás del form, y no estoy pudiendo poner primero "contactame" ***/
 .h4formulario {
 	margin: 15px;
 } 
