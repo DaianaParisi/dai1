@@ -198,7 +198,12 @@ footer ul {
 .h4formulario {
 	margin: 50px;
 } 
-
+/** Para poner "contactame" arriba del formulario, tenés que poner flex-direction: column. Como lo estás usando, está en
+fila. Si te referis a todavía tenerlo al costado, pero arriba de todo, es por la propiedad align-items que estás usando.
+Te lo va a dejar posicionado siempre al centro. Si se lo sacas te lo tira para arriba, pero fijate de que, si haces eso,
+sacar o acomodar el margin que pusiste al h4 de contactame.
+No podés nivelar género porque en los demás labels estás poniendo un margin de 30 pxs. Se los podés sacar o agregar a
+la clase género un margin-left de 30px. **/
 #contenido {
 	background-color: transparent;
 	width: 840px;
