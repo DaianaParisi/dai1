@@ -2,4 +2,4 @@ No estoy pudiendo modificar en Contacto el formulario para que me quede arriba e
 
 
 
-La resolución con la cual estoy trabajando en mi pantalla es de 1366 x 768.
+La resolución con la cual estoy trabajando en mi pantalla es de 1600 x 900.
