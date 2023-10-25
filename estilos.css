@@ -10,17 +10,14 @@
 }
 
 body {
-	background-color: #FFC0B5;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
+	background-image: url("img/galeria/background.jpg");
+	background-repeat: no-repeat;
 }
 
 #fotoperfil {
 	width: auto;
 	margin-top: 40px;
-	border: 15px solid #FFC0B5;
+	border: 15px solid #a45d50;
 	border-radius: 950px;
 	display: flex;
 	justify-content: center;
@@ -32,7 +29,7 @@ h1 h2 h3 h4 p {
 }
 
 h1 {
-	color: white;
+	color: #a45d50;
 	font-size: 60px;
 	display: flex;
 	align-content: center;
@@ -40,7 +37,7 @@ h1 {
 }
 
 h2 {
-	color: white;
+	color: #a45d50;
 	font-size: 20px;
 	font-style: italic;
 	padding: 5px;
@@ -62,9 +59,10 @@ h4 {
 }
 
 .datosprincipales p {
-	color: white;
-	font-size: 15px;
-	width: 400px;
+	color: #4a241d;
+	font-size: 17px;
+	font-weight: 500;
+	width: 550px;
 	padding: 30px;
 	display: flex;
 	justify-content: center;
@@ -73,7 +71,6 @@ h4 {
 .datosprincipales {
 	width: 1920px;
 	height: auto;
-	background-color: #A45D50;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -118,10 +115,9 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content:flex-start;
-	padding: 50px 24px 50px 0px;
+	padding: 50px 24px 72px 0px;
 	margin: auto;
 }
-/** subido **/
 
 section {
 	padding: 22px;
@@ -139,7 +135,8 @@ section {
 ul{
 	font-size: 100%;
 	font-weight: 400;
-	color: #A45D50;
+	color: #4a241d;
+	font-weight: 500;
 	line-height: 30px;
 	height: 270px;
 	text-align:start;
@@ -157,7 +154,7 @@ footer {
 	display: flex;
 	justify-content:space-around;
 	align-items:center;
-	padding: 0 0 0 50px;
+	padding: 0 0 0 60px;
 	font-style: italic;
 }
 
@@ -168,12 +165,12 @@ footer p {
 }
 
 #redes {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-	margin: 35px 0 0px 0;
-	padding: 0 116px 30px 0;
-	margin-bottom:15px;
+	background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+	padding-right: 70px;
 }
 
 .botones a{
@@ -320,29 +317,38 @@ input {
 	
 	h1 {
 		line-height: 53px;
-		font-size: 42px;
+		font-size: 34px;
 	}
 	
 	h2 {
-		line-height: 10px;
-		font-size: 20px;
+		line-height: 2px;
+		font-size: 16px;
+		padding-bottom: 20px;
 	}
 	
-	.datosprincipales p {
-		line-height: 15px;
-		font-size: 12px;
-		padding: 15px;
-		width: 378px;
+.datosprincipales p {
+	line-height: 16px;
+	font-size: 11px;
+	padding: 6px;
+	width: 355px;
 	}
 	
 	.datosprincipales {
-		padding: 47px;
+		padding: 9px 23px 17px 18px;
+		display: flex;
+		align-items: center;
+	}
+	
+	main {
+		width: 100%;
+		height: 100%
 	}
 	
 	#fotoperfil {
 		width: 200px;
 		height: auto;
 	}
+	
 }
 
 /** falta la botonera y elfooter **/
