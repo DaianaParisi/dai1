@@ -108,8 +108,8 @@ nav ul li a
 
 nav ul li a:hover
 {
-	color:#723D33;
-	font-weight: 600;
+	color:#FFFFFF;
+	font-weight: 500;
 }
 
 main {
@@ -124,8 +124,8 @@ main {
 /** subido **/
 
 section {
-	padding: 35px;
-	width: 50%;
+	padding: 22px;
+	width: 80%;
 	height: auto;
 }
 
@@ -141,9 +141,7 @@ ul{
 	font-weight: 400;
 	color: #A45D50;
 	line-height: 30px;
-	height: 250px;
-	justify-content: center;
-	align-items: center;
+	height: 270px;
 	text-align:start;
 }
 
@@ -192,10 +190,17 @@ footer ul {
 
 
 /***** CONTACTO  HTML*****/
-/**** no puedo lograr nivelar "genero" a lo demás del form, y no estoy pudiendo poner primero "contactame" ***/
+/** no puedo lograr nivelar "genero" a lo demás del form, y no estoy pudiendo poner primero "contactame" **/
+
 .h4formulario {
 	margin: 50px;
 } 
+/** Para poner "contactame" arriba del formulario, tenés que poner flex-direction: column. Como lo estás usando, está en
+fila. Si te referis a todavía tenerlo al costado, pero arriba de todo, es por la propiedad align-items que estás usando.
+Te lo va a dejar posicionado siempre al centro. Si se lo sacas te lo tira para arriba, pero fijate de que, si haces eso,
+sacar o acomodar el margin que pusiste al h4 de contactame.
+No podés nivelar género porque en los demás labels estás poniendo un margin de 30 pxs. Se los podés sacar o agregar a
+la clase género un margin-left de 30px. **/
 
 #contenido {
 	background-color: transparent;
@@ -289,6 +294,7 @@ input {
 	padding-top: 15px;
 }
 
+
 /*** GALERÍA DE IMÁGENES ***/
 #galeria {
 	width: 85%;
@@ -309,3 +315,43 @@ input {
 	border-radius: 20px;
 	border: 10px solid #A45D50;
 }
+
+@media screen and (max-width: 600px) {
+	
+	h1 {
+		line-height: 53px;
+		font-size: 42px;
+	}
+	
+	h2 {
+		line-height: 10px;
+		font-size: 20px;
+	}
+	
+	.datosprincipales p {
+		line-height: 15px;
+		font-size: 12px;
+		padding: 15px;
+		width: 378px;
+	}
+	
+	.datosprincipales {
+		padding: 47px;
+	}
+	
+	#fotoperfil {
+		width: 200px;
+		height: auto;
+	}
+}
+
+/** falta la botonera y elfooter **/
+
+
+
+
+
+
+
+
+
