@@ -317,3 +317,43 @@ input {
 	border-radius: 20px;
 	border: 10px solid #A45D50;
 }
+
+@media screen and (max-width: 600px) {
+	
+	h1 {
+		line-height: 53px;
+		font-size: 42px;
+	}
+	
+	h2 {
+		line-height: 10px;
+		font-size: 20px;
+	}
+	
+	.datosprincipales p {
+		line-height: 15px;
+		font-size: 12px;
+		padding: 15px;
+		width: 378px;
+	}
+	
+	.datosprincipales {
+		padding: 47px;
+	}
+	
+	#fotoperfil {
+		width: 200px;
+		height: auto;
+	}
+}
+
+/** falta la botonera y elfooter **/
+
+
+
+
+
+
+
+
+
