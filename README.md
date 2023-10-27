@@ -1,7 +1,2 @@
-Tengo 2 dudas puntuales:
-Cambié el formulario, está mejor resuelto? (me falta acomodar y achicar un poco más los tamaños)
-Realicé el responsive en el index pero no estoy segura de que este 100% bien.
-
-La resolución con la cual estoy trabajando en mi pantalla es de 1600 x 900.
-
-Gracias!
+Intenté resolver lo mejor posible e incorporar todo lo aprendido.
+La resolución con la cual trabajé de pantalla fueron de 1280 x 720 y de 1600 x 900.
